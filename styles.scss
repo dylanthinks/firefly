@@ -1,0 +1,67 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif);
+
+@mixin flexbox {
+	display: -webkit-flex;
+	display: flex;
+}
+
+@mixin flexbox-inline {
+	display: -ms-inline-flex;
+	display: -webkit-inline-flex;
+	display: inline-flex;
+}
+
+.quoteSpace {
+	width: 80%;
+	height: 25%;
+	background: orange;
+}
+
+h1, h2, h3, a, p {
+	color: #FFFEFC;
+}
+
+.chart {
+	width: 15%;
+	margin-top: 15%;
+	@include flexbox;
+}
+
+.crew {
+	border: 2px solid #852004;
+	cursor: pointer;
+	padding: .2em;
+	margin: .5em;
+	font-family: "Raleway", sans-serif;
+	font-size: 1em;
+	@include flexbox;
+	flex-flow: row wrap;
+	justify-content: center;
+	}	
+
+.chart:nth-child(3n+1){
+	clear: left;
+	
+}
+
+button {
+	border: 1px solid #000;
+	border-radius: 5%;
+	background-color: #6E3629;
+	color: #C9C33D;
+}
+
+img, button img {
+	width: 150px;
+	height: auto;
+	border-radius: 50%;
+	border: 2px solid #c9c33d;
+}
