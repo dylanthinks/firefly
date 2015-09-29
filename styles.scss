@@ -30,9 +30,11 @@ h1, h2, h3, a, p {
 }
 
 .chart {
-	width: 15%;
+	height: 100%;
 	margin-top: 15%;
 	@include flexbox;
+	flex-wrap: wrap;
+	flex-basis: 33%;
 }
 
 .crew {
@@ -47,9 +49,7 @@ h1, h2, h3, a, p {
 	justify-content: center;
 	}	
 
-.chart:nth-child(3n+1){
-	clear: left;
-	
+.chart .crew {
 }
 
 button {

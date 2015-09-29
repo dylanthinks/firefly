@@ -14,10 +14,12 @@ h1, h2, h3, a, p {
   color: #FFFEFC; }
 
 .chart {
-  width: 15%;
+  height: 100%;
   margin-top: 15%;
   display: -webkit-flex;
-  display: flex; }
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 33%; }
 
 .crew {
   border: 2px solid #852004;
@@ -30,9 +32,6 @@ h1, h2, h3, a, p {
   display: flex;
   flex-flow: row wrap;
   justify-content: center; }
-
-.chart:nth-child(3n+1) {
-  clear: left; }
 
 button {
   border: 1px solid #000;

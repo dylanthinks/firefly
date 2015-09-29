@@ -7,6 +7,11 @@ var quotes = [];
 // selected string from an array, appropriately
 // returning a quote that matches the character clicked.
 
+
+// keep in kind you will need a way to randomly select a string
+// out of each character array for each button click 
+
+
 // variables that store all quotes in arrays
 var mal = ["Give us some cover fire. We\'re going duck huntin\'.",
     "We\'ve done the impossible, and that makes us mighty.",
