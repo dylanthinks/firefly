@@ -1,6 +1,6 @@
-var quotes = [];
 
-// quote generator here, you want to 
+
+// quote generator here, you want to
 // create a simple function that prompts
 // upon clicking 1 of 9 crew buttons
 // and have the function return a randomly
@@ -9,13 +9,13 @@ var quotes = [];
 
 
 // keep in kind you will need a way to randomly select a string
-// out of each character array for each button click 
+// out of each character array for each button click
 
 
 // variables that store all quotes in arrays
 var mal = ["Give us some cover fire. We\'re going duck huntin\'.",
     "We\'ve done the impossible, and that makes us mighty.",
-    "We\'re not gonna die. We can\'t die, Bendis. And you know why? Because we are so very pretty. We are just too pretty for God to let us die. Huh? Look at that chiseled jaw, huh?", "I don't believe there's a power in the 'verse can stop Kaylee from bein' cheerful.", "I'd like to be the king of all Londinum and wear a shiny hat. Just get us some passengers.", "You're lying. You're well aware we landed two hours before we planned to with all the goods you sent us after intact, ready to roll. So your decision to get tetchy, say we're late, means you're lookin' to put us up on the defensive right up front. Which means something's gone wrong. It didn't go wrong on our end. So why don't we start again with you tellin' us what's up.", "Maybe I'm not a fancy gentleman like you, with your very fine hat, but I do business.", "We'd be dead. Can't get paid if you're dead.", 
+    "We\'re not gonna die. We can\'t die, Bendis. And you know why? Because we are so very pretty. We are just too pretty for God to let us die. Huh? Look at that chiseled jaw, huh?", "I don't believe there's a power in the 'verse can stop Kaylee from bein' cheerful.", "I'd like to be the king of all Londinum and wear a shiny hat. Just get us some passengers.", "You're lying. You're well aware we landed two hours before we planned to with all the goods you sent us after intact, ready to roll. So your decision to get tetchy, say we're late, means you're lookin' to put us up on the defensive right up front. Which means something's gone wrong. It didn't go wrong on our end. So why don't we start again with you tellin' us what's up.", "Maybe I'm not a fancy gentleman like you, with your very fine hat, but I do business.", "We'd be dead. Can't get paid if you're dead.",
     "Jayne, your mouth is talkin'. You might wanna look to that.",
     "It's been a long time since Patience shot me, and that was due to a perfectly legitimate conflict of interest.",
     "If anyone gets nosy, you know, just..shoot 'em.",
@@ -44,7 +44,7 @@ var mal = ["Give us some cover fire. We\'re going duck huntin\'.",
 	"You got a day's work to do and two hours to do it.",
 	"They'll swing back to the belief that they can make people better. And I do not hold to that."]
 
-var zoe = ["Now we have a boat full of citizens right on top of our stolen cargo. That's a fun mix.", 
+var zoe = ["Now we have a boat full of citizens right on top of our stolen cargo. That's a fun mix.",
     "Kill a fed? Can you think of a stupider thing to do?",
     "If they take the ship, they'll rape us to death, eat our flesh and sew our skins into their clothing. And if we're very, very lucky, they'll do it in that order.",
     "Nice place for an ambush.",
@@ -55,7 +55,7 @@ var zoe = ["Now we have a boat full of citizens right on top of our stolen cargo
 	"You and I would make a beautiful baby. And I wanna meet that child one day. Period.",
 	"Do you know what the definition of a 'hero' is? Somebody who gets other people killed. You can look it up later."]
 
-var jayne = ["Let's moon them.", 
+var jayne = ["Let's moon them.",
     "As long as we got the goods, I call this a win.",
 	"Captain, can you stop her from bein' cheerful, please?",
 	"The only fluid I see here is the puddle of piss refusing to pay us our wage.",
@@ -68,10 +68,10 @@ var jayne = ["Let's moon them.",
 	"You know what the chain of command is? It's a chain I beat you with till you understand who's in command here.",
 	"What’d y’all order a dead guy for?",
 	"My John Wayne about to pop off and fly around the room. There’s so much tasty here.",
-	"Let’s shift this conversation into a ‘not Jayne’s fault’ direction.", 
-	"Well, I don’t like the idea of someone hearing what I’m thinking.", 
+	"Let’s shift this conversation into a ‘not Jayne’s fault’ direction.",
+	"Well, I don’t like the idea of someone hearing what I’m thinking.",
 	"Yeah, and if wishes were horses, we’d all be eating steaks.",
-	"What you plan and what takes place ain't ever exactly been similar.", 
+	"What you plan and what takes place ain't ever exactly been similar.",
 	"I've been to the edge. Just look like more space."]
 
 var wash = ["Captain, we're humped.",
@@ -107,7 +107,7 @@ var wash = ["Captain, we're humped.",
   "Isn’t there anything about this place you’re glad of?",
   "sometimes people have feelings. I'm referring here to people."]
 
-  var inara = ["It's all right—I mostly keep to myself. When I'm not whoring.", 
+  var inara = ["It's all right—I mostly keep to myself. When I'm not whoring.",
   "So, would you like to lecture me on the wickedness of my ways?",
   "You're lost in the woods. We all are. Even the captain. The only difference is he likes it that way.",
   "Then when I'm behind on the rent, you can come in unasked.",
@@ -117,7 +117,7 @@ var wash = ["Captain, we're humped.",
  "You have a strange sense of nobility, captain. You'll lay a man out for implying I'm a whore, but you keep calling me one to my face.",
  "One of the virtues of not being puritanical about sex is not feeling embarrassed afterwards. You should look into it."]
 
- var book = ["I never married. I'm not a grandpa.", 
+ var book = ["I never married. I'm not a grandpa.",
 	"Been out of the world for a spell--like to walk it a while. Maybe bring the word to them as need it told.",
 	"A man can live on packaged food from here till Judgment Day if he's got enough rosemary.",
 	"I brought you some supper. But if you'd prefer a lecture, I have a few very catchy ones prepped. Sin and hellfire. One has lepers.",
@@ -152,6 +152,12 @@ var wash = ["Captain, we're humped.",
 	"You are such a boob.",
 	"It's just an object. It doesn't mean what you think.",
 	"We meddle. People don't like to be meddled with. We tell them what to do, what to think. Don't run, don't walk. We're in their homes and in their heads and we haven't the right. We're meddlesome."]
-	var quoteGen = function(){
-	
+
+var quote = [];
+
+function malGen(min, max){
+       var malQuote = mal[Math.floor(Math.random() * mal.length)]
 };
+
+
+
