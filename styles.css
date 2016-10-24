@@ -5,9 +5,7 @@
   padding: 0;
   box-sizing: border-box; }
 
-  .bg {
-  background-color: #d4bd63;
-  }
+
 
 .quoteSpace {
   width: 80%;
@@ -34,6 +32,9 @@ ul {
   flex-basis: 33%; }
 
 .crew {
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
   background-color: #6E3629;
   cursor: pointer;
   padding: .2em;
@@ -42,9 +43,8 @@ ul {
   font-size: 1em;
   color: #d4bd63;
   border-radius: 5%;
-  display: -webkit-flex;
-  display: flex;
-  align-items: center; }
+
+ }
 
 img, button img {
   width: 150px;
