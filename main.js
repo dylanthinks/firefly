@@ -9,8 +9,7 @@
 
 
 // okay idea here. 9 characters. click on any of them, 1 quote pops up
-// in a space and border of character color is highlighted and 
-// will have to clear the quote / border whenever clicked kk
+// in a space and border of character color is highlighted
 
 
 // variables that store all quotes in arrays
@@ -111,7 +110,7 @@ var kaylee = ["No, it's shiny. I like to meet new people. They've all got storie
       "Look, they got boy whores. Isn’t that thoughtful?",
       "Nobody can shoot like that that’s a person.",
       "Isn’t there anything about this place you’re glad of?",
-      "sometimes people have feelings. I'm referring here to people."]
+      "Sometimes people have feelings. I'm referring here to people."]
 
 var inara = ["It's all right—I mostly keep to myself. When I'm not whoring.",
       "So, would you like to lecture me on the wickedness of my ways?",
@@ -163,46 +162,64 @@ var river = ["This isn't home?",
 function malGen() {
       var randomNumber = Math.floor(Math.random() * (mal.length));
       document.getElementById('quoteSpace').innerHTML = mal[randomNumber];
+      var creditName = "– Mal Reynolds";
+      document.getElementById('injectCredit').innerHTML = creditName;
 };
 
 function zoeGen() {
       var randomNumber = Math.floor(Math.random() * (zoe.length));
       document.getElementById('quoteSpace').innerHTML = zoe[randomNumber];
+      var creditName = "– Zoe Washburne";
+      document.getElementById('injectCredit').innerHTML = creditName;
 };
 
 function jayGen() {
       var randomNumber = Math.floor(Math.random() * (jayne.length));
       document.getElementById('quoteSpace').innerHTML = jayne[randomNumber];
+      var creditName = "– Jayne Cobb";
+      document.getElementById('injectCredit').innerHTML = creditName;
 };
 
 function washGen() {
       var randomNumber = Math.floor(Math.random() * (wash.length));
       document.getElementById('quoteSpace').innerHTML = wash[randomNumber];
+      var creditName = "– Wash Washburne";
+      document.getElementById('injectCredit').innerHTML = creditName;
 };
 
 function kayGen() {
       var randomNumber = Math.floor(Math.random() * (kaylee.length));
       document.getElementById('quoteSpace').innerHTML = kaylee[randomNumber];
+      var creditName = "– Kaylee Frye";
+      document.getElementById('injectCredit').innerHTML = creditName;
 };
 
 function inaraGen() {
       var randomNumber = Math.floor(Math.random() * (inara.length));
       document.getElementById('quoteSpace').innerHTML = inara[randomNumber];
+      var creditName = "– Inara Serra";
+      document.getElementById('injectCredit').innerHTML = creditName;
 };
 
 function bookGen() {
       var randomNumber = Math.floor(Math.random() * (book.length));
       document.getElementById('quoteSpace').innerHTML = book[randomNumber];
+      var creditName = "– Shepherd Book";
+      document.getElementById('injectCredit').innerHTML = creditName;
 };
 
 function simonGen() {
       var randomNumber = Math.floor(Math.random() * (simon.length));
       document.getElementById('quoteSpace').innerHTML = simon[randomNumber];
+      var creditName = "– Simon Tam";
+      document.getElementById('injectCredit').innerHTML = creditName;
 };
 
 function riverGen() {
       var randomNumber = Math.floor(Math.random() * (river.length));
       document.getElementById('quoteSpace').innerHTML = river[randomNumber];
+      var creditName = "– River Tam"
+      document.getElementById('injectCredit').innerHTML = creditName;
 };
 
 
